@@ -23,6 +23,7 @@ void main() {
   print('\nFruit Details After Applying 10% Discount:\n');
 
   displayFruitDetails(fruits);
+  //displayFruitDetails(fruits);
 }
 void displayFruitDetails(List<Map<String, dynamic>> fruits) {
   for (var fruit in fruits) {
